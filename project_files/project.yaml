@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/traffic/train/images
+val: /content/drive/MyDrive/traffic/valid/images
+test: /content/drive/MyDrive/traffic/test/images
+
+nc: 9
+names: ['car', 'green', 'greenleft', 'greenp', 'left', 'person', 'red', 'redleft', 'redp']
+
+roboflow:
+  workspace: jeongin-ornmd
+  project: traffic-dq0ew
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jeongin-ornmd/traffic-dq0ew/dataset/5
